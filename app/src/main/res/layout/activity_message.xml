@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MessageActivity"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS MANAGER"
+            android:textSize="20sp"
+            android:textColor="#f00"
+            android:background="#AEAEF7"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/new_massage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEW MESSAGE"
+            android:textSize="20sp"
+            android:textColor="#04259C"
+            android:background="#AEF5F7"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/inbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INBOX"
+            android:textSize="20sp"
+            android:textColor="#062B9B"
+            android:background="#AEF7B5"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXIT"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="#E4AEF7"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+</layout>

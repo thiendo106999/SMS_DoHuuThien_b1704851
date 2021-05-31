@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NewMessageActivity"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GỬI TIN NHẮN SMS"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#0000ff"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Nhập vào số điện thoại:"/>
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:text="Nhập vào tin nhắn:"/>
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/send"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="GỬI"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/exitinbox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TRỞ VỀ"
+                android:textSize="20sp"
+                android:layout_margin="20dp"
+                android:padding="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Trang thai:"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+               android:layout_margin="20dp"
+                android:padding="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>
